@@ -16,7 +16,7 @@ const port = process.env.PORT || 4000;
 // ⭐ IMPORTANT: ENABLE CREDENTIALS FOR CLERK COOKIE SESSION
 const allowedOrigins = [
   "deep-patel-q9us.vercel.app", // user frontend
-  "deep-patel-admin.vercel.app", // admin dashboard
+  "https://deeplbackend.vercel.app", // admin dashboard
 ];
 
 app.use(
